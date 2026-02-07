@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-01-19T03:57:10.233150",
+  "results": [
+    {
+      "success": true,
+      "platform": "twitter",
+      "url": "https://twitter.com/i/web/status/2013022713179500599",
+      "id": "2013022713179500599"
+    },
+    {
+      "success": false,
+      "platform": "linkedin",
+      "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.linkedin.com/feed/\", waiting until \"load\"\n"
+    },
+    {
+      "success": true,
+      "platform": "instagram",
+      "note": "Ready for image posts"
+    },
+    {
+      "success": true,
+      "platform": "email",
+      "to": "aimoshahs@gmail.com"
+    }
+  ]
+}

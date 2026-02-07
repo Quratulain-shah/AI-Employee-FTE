@@ -1,0 +1,19 @@
+{
+  "event_type": "platform_post",
+  "timestamp": "2026-01-17T04:10:27.556136",
+  "processor": "auto_processor",
+  "filename": "TWITTER_AI_APPROVED_POST_20260117.md",
+  "metadata": {
+    "type": "twitter_post",
+    "status": "approved",
+    "created_at": "2026-01-17T04:20:00",
+    "approved_at": "2026-01-17T04:20:00",
+    "priority": "medium"
+  },
+  "result": {
+    "success": false,
+    "platform": "twitter",
+    "error": "403 Forbidden\nYou are not permitted to perform this action."
+  },
+  "success": false
+}

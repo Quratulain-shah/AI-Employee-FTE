@@ -1,0 +1,934 @@
+2026-01-16 04:03:49,240 - __main__ - INFO - ============================================================
+2026-01-16 04:03:49,240 - __main__ - INFO - AUTO PROCESSOR - Starting 24/7 File Monitor
+2026-01-16 04:03:49,240 - __main__ - INFO - ============================================================
+2026-01-16 04:03:49,242 - __main__ - INFO - Checking for existing files in Approved folder...
+2026-01-16 04:03:49,242 - __main__ - INFO - Found 1 existing files to process
+2026-01-16 04:03:49,242 - __main__ - INFO - Processing existing file: LINKEDIN_POST_post_20260116_034550.md
+2026-01-16 04:03:49,242 - __main__ - INFO - Reading file: LINKEDIN_POST_post_20260116_034550.md
+2026-01-16 04:03:49,244 - __main__ - ERROR - Error processing LINKEDIN_POST_post_20260116_034550.md: Object of type datetime is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 99, in process_file
+    log_entry = self.create_log_entry(file_info)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 162, in create_log_entry
+    log_path.write_text(json.dumps(log_entry, indent=2))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2026-01-16 04:03:49,806 - __main__ - INFO - Press Ctrl+C to stop
+
+2026-01-16 04:30:31,226 - __main__ - INFO - File modified: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\LINKEDIN_POST_post_20260116_034550.md
+2026-01-16 04:30:31,226 - __main__ - INFO - Reading file: LINKEDIN_POST_post_20260116_034550.md
+2026-01-16 04:30:31,231 - __main__ - ERROR - Error processing LINKEDIN_POST_post_20260116_034550.md: Object of type datetime is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 99, in process_file
+    log_entry = self.create_log_entry(file_info)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 162, in create_log_entry
+    log_path.write_text(json.dumps(log_entry, indent=2))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2026-01-16 04:30:31,738 - __main__ - INFO - File modified: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\LINKEDIN_POST_post_20260116_034550.md
+2026-01-16 04:30:31,738 - __main__ - INFO - Reading file: LINKEDIN_POST_post_20260116_034550.md
+2026-01-16 04:30:31,745 - __main__ - ERROR - Error processing LINKEDIN_POST_post_20260116_034550.md: Object of type datetime is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 99, in process_file
+    log_entry = self.create_log_entry(file_info)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 162, in create_log_entry
+    log_path.write_text(json.dumps(log_entry, indent=2))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2026-01-16 04:30:46,750 - __main__ - INFO - File modified: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\LINKEDIN_POST_post_20260116_034550.md
+2026-01-16 04:30:46,750 - __main__ - INFO - Reading file: LINKEDIN_POST_post_20260116_034550.md
+2026-01-16 04:30:46,756 - __main__ - ERROR - Error processing LINKEDIN_POST_post_20260116_034550.md: Object of type datetime is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 99, in process_file
+    log_entry = self.create_log_entry(file_info)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 162, in create_log_entry
+    log_path.write_text(json.dumps(log_entry, indent=2))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2026-01-16 04:30:47,260 - __main__ - INFO - File modified: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\LINKEDIN_POST_post_20260116_034550.md
+2026-01-16 04:30:47,260 - __main__ - INFO - Reading file: LINKEDIN_POST_post_20260116_034550.md
+2026-01-16 04:30:47,260 - __main__ - ERROR - Error processing LINKEDIN_POST_post_20260116_034550.md: Object of type datetime is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 99, in process_file
+    log_entry = self.create_log_entry(file_info)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 162, in create_log_entry
+    log_path.write_text(json.dumps(log_entry, indent=2))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2026-01-16 06:12:18,042 - __main__ - INFO - File modified: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\LINKEDIN_POST_post_20260116_034550.md
+2026-01-16 06:12:18,050 - __main__ - INFO - Reading file: LINKEDIN_POST_post_20260116_034550.md
+2026-01-16 06:12:18,060 - __main__ - ERROR - Error processing LINKEDIN_POST_post_20260116_034550.md: Object of type datetime is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 99, in process_file
+    log_entry = self.create_log_entry(file_info)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 162, in create_log_entry
+    log_path.write_text(json.dumps(log_entry, indent=2))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2026-01-17 00:47:45,159 - __main__ - INFO - File modified: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\LINKEDIN_POST_post_20260116_034550.md
+2026-01-17 00:47:45,167 - __main__ - INFO - Reading file: LINKEDIN_POST_post_20260116_034550.md
+2026-01-17 00:47:45,174 - __main__ - ERROR - Error processing LINKEDIN_POST_post_20260116_034550.md: Object of type datetime is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 99, in process_file
+    log_entry = self.create_log_entry(file_info)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 162, in create_log_entry
+    log_path.write_text(json.dumps(log_entry, indent=2))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2026-01-17 02:23:45,797 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\EMAIL_REPLY_DRAFT_20260117_022043.md
+2026-01-17 02:23:45,813 - __main__ - INFO - Reading file: EMAIL_REPLY_DRAFT_20260117_022043.md
+2026-01-17 02:23:45,832 - __main__ - INFO - Created log entry for: EMAIL_REPLY_DRAFT_20260117_022043.md
+2026-01-17 02:23:45,843 - __main__ - INFO - Moved EMAIL_REPLY_DRAFT_20260117_022043.md to Done/
+2026-01-17 02:23:45,849 - __main__ - INFO - Updated dashboard for: EMAIL_REPLY_DRAFT_20260117_022043.md
+2026-01-17 02:23:46,353 - __main__ - INFO - File modified: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\EMAIL_REPLY_DRAFT_20260117_022043.md
+2026-01-17 02:23:46,353 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\EMAIL_REPLY_DRAFT_20260117_022043.md
+2026-01-17 02:26:00,938 - __main__ - INFO - ============================================================
+2026-01-17 02:26:00,938 - __main__ - INFO - AUTO PROCESSOR - Starting 24/7 Platform Poster
+2026-01-17 02:26:00,942 - __main__ - INFO - ============================================================
+2026-01-17 02:26:00,944 - __main__ - INFO - Vault path: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault
+2026-01-17 02:26:00,944 - __main__ - INFO - Monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 02:26:00,951 - __main__ - INFO - Checking for existing files in Approved folder...
+2026-01-17 02:26:00,953 - __main__ - INFO - Found 1 existing files to process
+2026-01-17 02:26:00,955 - __main__ - INFO - Processing existing file: LINKEDIN_POST_post_20260116_034550.md
+2026-01-17 02:26:00,974 - __main__ - INFO - Processing file: LINKEDIN_POST_post_20260116_034550.md
+2026-01-17 02:26:01,026 - __main__ - INFO - File type detected: linkedin_post_approval
+2026-01-17 02:26:01,528 - __main__ - INFO - File modified: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\LINKEDIN_POST_post_20260116_034550.md
+2026-01-17 02:26:01,528 - __main__ - INFO - Reading file: LINKEDIN_POST_post_20260116_034550.md
+2026-01-17 02:26:01,535 - __main__ - ERROR - Error processing LINKEDIN_POST_post_20260116_034550.md: Object of type datetime is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 99, in process_file
+    browser = await p.chromium.launch(headless=False)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 162, in create_log_entry
+    phone_clean = re.sub(r'[\s\-\(\)]', '', phone)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2026-01-17 02:26:19,249 - linkedin_poster - INFO - Browser initialized successfully
+2026-01-17 02:26:27,340 - linkedin_poster - WARNING - Not logged in, attempting login...
+2026-01-17 02:26:42,509 - linkedin_poster - ERROR - LinkedIn login failed
+2026-01-17 02:26:42,550 - linkedin_poster - INFO - Saved cookies
+2026-01-17 02:26:43,875 - __main__ - INFO - LinkedIn post successful: N/A
+2026-01-17 02:26:43,875 - __main__ - ERROR - Error processing LINKEDIN_POST_post_20260116_034550.md: Object of type datetime is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 352, in process_file
+    self.create_log_entry(file_path, metadata, result, success=True)
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 470, in create_log_entry
+    log_path.write_text(json.dumps(log_entry, indent=2))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2026-01-17 02:26:44,968 - __main__ - INFO - Started monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 02:26:44,968 - __main__ - INFO - Watching for .md files in Approved folder
+2026-01-17 02:26:44,972 - __main__ - INFO - Supported types: linkedin_post, twitter_post, whatsapp, email
+2026-01-17 02:26:44,972 - __main__ - INFO - Press Ctrl+C to stop
+
+2026-01-17 02:42:36,126 - __main__ - INFO - 
+Shutting down Auto Processor...
+2026-01-17 02:42:36,155 - __main__ - INFO - Auto Processor stopped gracefully
+2026-01-17 02:42:45,288 - __main__ - INFO - ============================================================
+2026-01-17 02:42:45,288 - __main__ - INFO - AUTO PROCESSOR - Starting 24/7 Platform Poster
+2026-01-17 02:42:45,288 - __main__ - INFO - ============================================================
+2026-01-17 02:42:45,293 - __main__ - INFO - Vault path: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault
+2026-01-17 02:42:45,297 - __main__ - INFO - Monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 02:42:45,304 - __main__ - INFO - Checking for existing files in Approved folder...
+2026-01-17 02:42:45,307 - __main__ - INFO - No existing files to process
+2026-01-17 02:42:45,313 - __main__ - INFO - Started monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 02:42:45,313 - __main__ - INFO - Watching for .md files in Approved folder
+2026-01-17 02:42:45,313 - __main__ - INFO - Supported types: linkedin_post, twitter_post, whatsapp, email
+2026-01-17 02:42:45,313 - __main__ - INFO - Press Ctrl+C to stop
+
+2026-01-17 02:43:26,462 - __main__ - INFO - ============================================================
+2026-01-17 02:43:26,462 - __main__ - INFO - AUTO PROCESSOR - Starting 24/7 Platform Poster
+2026-01-17 02:43:26,462 - __main__ - INFO - ============================================================
+2026-01-17 02:43:26,470 - __main__ - INFO - Vault path: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault
+2026-01-17 02:43:26,471 - __main__ - INFO - Monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 02:43:26,471 - __main__ - INFO - Checking for existing files in Approved folder...
+2026-01-17 02:43:26,471 - __main__ - INFO - No existing files to process
+2026-01-17 02:43:26,477 - __main__ - INFO - Started monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 02:43:26,479 - __main__ - INFO - Watching for .md files in Approved folder
+2026-01-17 02:43:26,479 - __main__ - INFO - Supported types: linkedin_post, twitter_post, whatsapp, email
+2026-01-17 02:43:26,479 - __main__ - INFO - Press Ctrl+C to stop
+
+2026-01-17 02:44:25,403 - __main__ - INFO - 
+Shutting down Auto Processor...
+2026-01-17 02:44:25,406 - __main__ - INFO - Auto Processor stopped gracefully
+2026-01-17 02:46:11,040 - __main__ - INFO - ============================================================
+2026-01-17 02:46:11,040 - __main__ - INFO - AUTO PROCESSOR - Starting 24/7 Platform Poster
+2026-01-17 02:46:11,040 - __main__ - INFO - ============================================================
+2026-01-17 02:46:11,048 - __main__ - INFO - Vault path: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault
+2026-01-17 02:46:11,048 - __main__ - INFO - Monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 02:46:11,048 - __main__ - INFO - Checking for existing files in Approved folder...
+2026-01-17 02:46:11,048 - __main__ - INFO - No existing files to process
+2026-01-17 02:46:11,056 - __main__ - INFO - Started monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 02:46:11,056 - __main__ - INFO - Watching for .md files in Approved folder
+2026-01-17 02:46:11,056 - __main__ - INFO - Supported types: linkedin_post, twitter_post, whatsapp, email
+2026-01-17 02:46:11,056 - __main__ - INFO - Press Ctrl+C to stop
+
+2026-01-17 04:09:37,520 - __main__ - INFO - ============================================================
+2026-01-17 04:09:37,521 - __main__ - INFO - AUTO PROCESSOR - Starting 24/7 Platform Poster
+2026-01-17 04:09:37,521 - __main__ - INFO - ============================================================
+2026-01-17 04:09:37,522 - __main__ - INFO - Vault path: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault
+2026-01-17 04:09:37,522 - __main__ - INFO - Monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 04:09:37,523 - __main__ - INFO - Checking for existing files in Approved folder...
+2026-01-17 04:09:37,523 - __main__ - INFO - Found 3 existing files to process
+2026-01-17 04:09:37,524 - __main__ - INFO - Processing existing file: INSTAGRAM_AI_APPROVED_POST_20260117.md
+2026-01-17 04:09:37,525 - __main__ - INFO - Processing file: INSTAGRAM_AI_APPROVED_POST_20260117.md
+2026-01-17 04:09:37,528 - __main__ - INFO - File type detected: instagram_post
+2026-01-17 04:09:37,528 - __main__ - WARNING - Unknown platform type: instagram_post. Processing as generic file.
+2026-01-17 04:09:37,528 - __main__ - ERROR - Error processing INSTAGRAM_AI_APPROVED_POST_20260117.md: Object of type datetime is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 352, in process_file
+    self.create_log_entry(file_path, metadata, result, success=True)
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 470, in create_log_entry
+    log_path.write_text(json.dumps(log_entry, indent=2))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2026-01-17 04:09:38,536 - __main__ - INFO - Processing existing file: INSTAGRAM_AI_POST_APPROVED_20260117.md
+2026-01-17 04:09:38,538 - __main__ - INFO - Processing file: INSTAGRAM_AI_POST_APPROVED_20260117.md
+2026-01-17 04:09:38,539 - __main__ - INFO - File type detected: instagram_post
+2026-01-17 04:09:38,539 - __main__ - WARNING - Unknown platform type: instagram_post. Processing as generic file.
+2026-01-17 04:09:38,540 - __main__ - ERROR - Error processing INSTAGRAM_AI_POST_APPROVED_20260117.md: Object of type datetime is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 352, in process_file
+    self.create_log_entry(file_path, metadata, result, success=True)
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 470, in create_log_entry
+    log_path.write_text(json.dumps(log_entry, indent=2))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2026-01-17 04:09:39,553 - __main__ - INFO - Processing existing file: INSTAGRAM_AI_POST_TEST_20260117.md
+2026-01-17 04:09:39,554 - __main__ - INFO - Processing file: INSTAGRAM_AI_POST_TEST_20260117.md
+2026-01-17 04:09:39,557 - __main__ - INFO - File type detected: instagram_post
+2026-01-17 04:09:39,557 - __main__ - WARNING - Unknown platform type: instagram_post. Processing as generic file.
+2026-01-17 04:09:39,557 - __main__ - ERROR - Error processing INSTAGRAM_AI_POST_TEST_20260117.md: Object of type datetime is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 352, in process_file
+    self.create_log_entry(file_path, metadata, result, success=True)
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 470, in create_log_entry
+    log_path.write_text(json.dumps(log_entry, indent=2))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2026-01-17 04:09:40,569 - __main__ - INFO - Started monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 04:09:40,569 - __main__ - INFO - Watching for .md files in Approved folder
+2026-01-17 04:09:40,569 - __main__ - INFO - Supported types: linkedin_post, twitter_post, whatsapp, email
+2026-01-17 04:09:40,569 - __main__ - INFO - Press Ctrl+C to stop
+
+2026-01-17 04:10:25,357 - __main__ - INFO - ============================================================
+2026-01-17 04:10:25,358 - __main__ - INFO - AUTO PROCESSOR - Starting 24/7 Platform Poster
+2026-01-17 04:10:25,358 - __main__ - INFO - ============================================================
+2026-01-17 04:10:25,359 - __main__ - INFO - Vault path: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault
+2026-01-17 04:10:25,359 - __main__ - INFO - Monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 04:10:25,361 - __main__ - INFO - Checking for existing files in Approved folder...
+2026-01-17 04:10:25,361 - __main__ - INFO - Found 1 existing files to process
+2026-01-17 04:10:25,361 - __main__ - INFO - Processing existing file: TWITTER_AI_APPROVED_POST_20260117.md
+2026-01-17 04:10:25,364 - __main__ - INFO - Processing file: TWITTER_AI_APPROVED_POST_20260117.md
+2026-01-17 04:10:25,366 - __main__ - INFO - File type detected: twitter_post
+2026-01-17 04:10:27,554 - __main__ - ERROR - Twitter posting failed: 403 Forbidden
+You are not permitted to perform this action.
+2026-01-17 04:10:27,561 - __main__ - ERROR - Failed to post: TWITTER_AI_APPROVED_POST_20260117.md - 403 Forbidden
+You are not permitted to perform this action.
+2026-01-17 04:10:28,565 - __main__ - INFO - Started monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 04:10:28,566 - __main__ - INFO - Watching for .md files in Approved folder
+2026-01-17 04:10:28,566 - __main__ - INFO - Supported types: linkedin_post, twitter_post, whatsapp, email
+2026-01-17 04:10:28,566 - __main__ - INFO - Press Ctrl+C to stop
+
+2026-01-17 04:15:50,041 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\INSTAGRAM_PROCESSED_POST_20260117.md
+2026-01-17 04:15:50,051 - __main__ - INFO - Reading file: INSTAGRAM_PROCESSED_POST_20260117.md
+2026-01-17 04:15:50,062 - __main__ - ERROR - Error processing INSTAGRAM_PROCESSED_POST_20260117.md: Object of type datetime is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 99, in process_file
+    browser = await p.chromium.launch(headless=False)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 162, in create_log_entry
+    phone_clean = re.sub(r'[\s\-\(\)]', '', phone)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2026-01-17 04:15:50,569 - __main__ - INFO - File modified: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\INSTAGRAM_PROCESSED_POST_20260117.md
+2026-01-17 04:15:50,569 - __main__ - INFO - Reading file: INSTAGRAM_PROCESSED_POST_20260117.md
+2026-01-17 04:15:50,571 - __main__ - ERROR - Error processing INSTAGRAM_PROCESSED_POST_20260117.md: Object of type datetime is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 99, in process_file
+    browser = await p.chromium.launch(headless=False)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 162, in create_log_entry
+    phone_clean = re.sub(r'[\s\-\(\)]', '', phone)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2026-01-17 04:15:56,729 - __main__ - INFO - ============================================================
+2026-01-17 04:15:56,729 - __main__ - INFO - AUTO PROCESSOR - Starting 24/7 Platform Poster
+2026-01-17 04:15:56,729 - __main__ - INFO - ============================================================
+2026-01-17 04:15:56,730 - __main__ - INFO - Vault path: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault
+2026-01-17 04:15:56,730 - __main__ - INFO - Monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 04:15:56,732 - __main__ - INFO - Checking for existing files in Approved folder...
+2026-01-17 04:15:56,732 - __main__ - INFO - Found 1 existing files to process
+2026-01-17 04:15:56,733 - __main__ - INFO - Processing existing file: INSTAGRAM_PROCESSED_POST_20260117.md
+2026-01-17 04:15:56,735 - __main__ - INFO - Processing file: INSTAGRAM_PROCESSED_POST_20260117.md
+2026-01-17 04:15:56,738 - __main__ - INFO - File type detected: instagram_post
+2026-01-17 04:15:56,738 - __main__ - WARNING - Unknown platform type: instagram_post. Processing as generic file.
+2026-01-17 04:15:56,738 - __main__ - ERROR - Error processing INSTAGRAM_PROCESSED_POST_20260117.md: Object of type datetime is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 352, in process_file
+    self.create_log_entry(file_path, metadata, result, success=True)
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 470, in create_log_entry
+    log_path.write_text(json.dumps(log_entry, indent=2))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2026-01-17 04:15:57,749 - __main__ - INFO - Started monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 04:15:57,750 - __main__ - INFO - Watching for .md files in Approved folder
+2026-01-17 04:15:57,750 - __main__ - INFO - Supported types: linkedin_post, twitter_post, whatsapp, email
+2026-01-17 04:15:57,750 - __main__ - INFO - Press Ctrl+C to stop
+
+2026-01-17 04:58:28,280 - __main__ - INFO - ============================================================
+2026-01-17 04:58:28,280 - __main__ - INFO - AUTO PROCESSOR - Starting 24/7 Platform Poster
+2026-01-17 04:58:28,280 - __main__ - INFO - ============================================================
+2026-01-17 04:58:28,280 - __main__ - INFO - Vault path: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault
+2026-01-17 04:58:28,280 - __main__ - INFO - Monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 04:58:28,280 - __main__ - INFO - Checking for existing files in Approved folder...
+2026-01-17 04:58:28,280 - __main__ - INFO - Found 1 existing files to process
+2026-01-17 04:58:28,280 - __main__ - INFO - Processing existing file: WHATSAPP_REPLY_APPROVED_20260117.md
+2026-01-17 04:58:28,280 - __main__ - INFO - Processing file: WHATSAPP_REPLY_APPROVED_20260117.md
+2026-01-17 04:58:28,294 - __main__ - INFO - File type detected: whatsapp
+2026-01-17 04:58:28,294 - __main__ - ERROR - Error processing WHATSAPP_REPLY_APPROVED_20260117.md: Object of type datetime is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 464, in process_file
+    self.create_log_entry(file_path, metadata, result, success=False)
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 590, in create_log_entry
+    log_path.write_text(json.dumps(log_entry, indent=2))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2026-01-17 04:58:29,335 - __main__ - INFO - Started monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 04:58:29,335 - __main__ - INFO - Watching for .md files in Approved folder
+2026-01-17 04:58:29,335 - __main__ - INFO - Supported types: linkedin_post, twitter_post, whatsapp, email, instagram_post, instagram_story
+2026-01-17 04:58:29,335 - __main__ - INFO - Press Ctrl+C to stop
+
+2026-01-17 04:59:00,253 - __main__ - INFO - ============================================================
+2026-01-17 04:59:00,253 - __main__ - INFO - AUTO PROCESSOR - Starting 24/7 Platform Poster
+2026-01-17 04:59:00,268 - __main__ - INFO - ============================================================
+2026-01-17 04:59:00,268 - __main__ - INFO - Vault path: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault
+2026-01-17 04:59:00,269 - __main__ - INFO - Monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 04:59:00,270 - __main__ - INFO - Checking for existing files in Approved folder...
+2026-01-17 04:59:00,270 - __main__ - INFO - Found 1 existing files to process
+2026-01-17 04:59:00,271 - __main__ - INFO - Processing existing file: WHATSAPP_MESSAGE_FIXED_20260117.md
+2026-01-17 04:59:00,272 - __main__ - INFO - Processing file: WHATSAPP_MESSAGE_FIXED_20260117.md
+2026-01-17 04:59:00,273 - __main__ - INFO - File type detected: whatsapp
+2026-01-17 04:59:20,961 - __main__ - ERROR - WhatsApp send button not found: Locator.wait_for: Page crashed
+Call log:
+  - waiting for locator("button[aria-label=\"Send\"]") to be visible
+
+2026-01-17 04:59:22,715 - __main__ - ERROR - Failed to post: WHATSAPP_MESSAGE_FIXED_20260117.md - Locator.wait_for: Page crashed
+Call log:
+  - waiting for locator("button[aria-label=\"Send\"]") to be visible
+
+2026-01-17 15:12:41,526 - __main__ - INFO - ============================================================
+2026-01-17 15:12:41,527 - __main__ - INFO - AUTO PROCESSOR - Starting 24/7 Platform Poster
+2026-01-17 15:12:41,527 - __main__ - INFO - ============================================================
+2026-01-17 15:12:41,528 - __main__ - INFO - Vault path: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault
+2026-01-17 15:12:41,528 - __main__ - INFO - Monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 15:12:41,529 - __main__ - INFO - Checking for existing files in Approved folder...
+2026-01-17 15:12:41,530 - __main__ - INFO - No existing files to process
+2026-01-17 15:12:41,533 - __main__ - INFO - Started monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 15:12:41,534 - __main__ - INFO - Watching for .md files in Approved folder
+2026-01-17 15:12:41,534 - __main__ - INFO - Supported types: linkedin_post, twitter_post, whatsapp, email, instagram_post, instagram_story
+2026-01-17 15:12:41,534 - __main__ - INFO - Press Ctrl+C to stop
+
+2026-01-17 15:39:36,036 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\linkedin_post_hackathon_zero_2026.md
+2026-01-17 15:39:36,049 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved\linkedin_post_hackathon_zero_2026.md
+2026-01-17 15:39:36,055 - __main__ - INFO - Reading file: linkedin_post_hackathon_zero_2026.md
+2026-01-17 15:39:36,071 - __main__ - INFO - Created log entry for: linkedin_post_hackathon_zero_2026.md
+2026-01-17 15:39:36,081 - __main__ - INFO - Moved linkedin_post_hackathon_zero_2026.md to Done/
+2026-01-17 15:39:36,087 - __main__ - INFO - Updated dashboard for: linkedin_post_hackathon_zero_2026.md
+2026-01-17 15:39:37,081 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved\linkedin_post_hackathon_zero_2026.md
+2026-01-17 15:39:47,634 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\tweet_thankyou_sir_zia.md
+2026-01-17 15:39:47,634 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved\tweet_thankyou_sir_zia.md
+2026-01-17 15:39:47,634 - __main__ - INFO - Reading file: tweet_thankyou_sir_zia.md
+2026-01-17 15:39:47,641 - __main__ - INFO - Created log entry for: tweet_thankyou_sir_zia.md
+2026-01-17 15:39:47,649 - __main__ - INFO - Moved tweet_thankyou_sir_zia.md to Done/
+2026-01-17 15:39:47,653 - __main__ - INFO - Updated dashboard for: tweet_thankyou_sir_zia.md
+2026-01-17 15:39:48,639 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved\tweet_thankyou_sir_zia.md
+2026-01-17 15:40:00,156 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\EMAIL_REPLY_20260117_153207.md
+2026-01-17 15:40:00,156 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved\EMAIL_REPLY_20260117_153207.md
+2026-01-17 15:40:00,156 - __main__ - INFO - Reading file: EMAIL_REPLY_20260117_153207.md
+2026-01-17 15:40:00,158 - __main__ - ERROR - Error processing EMAIL_REPLY_20260117_153207.md: [Errno 13] Permission denied: 'C:\\Users\\LENOVO X1 YOGA\\Desktop\\hakathone zero\\AI_Employee_Vault\\Approved\\EMAIL_REPLY_20260117_153207.md'
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 93, in process_file
+    try:
+         
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\LENOVO X1 YOGA\\Desktop\\hakathone zero\\AI_Employee_Vault\\Approved\\EMAIL_REPLY_20260117_153207.md'
+2026-01-17 15:40:01,160 - __main__ - INFO - Processing file: EMAIL_REPLY_20260117_153207.md
+2026-01-17 15:40:01,181 - __main__ - INFO - File type detected: 
+2026-01-17 15:40:01,181 - __main__ - WARNING - Unknown platform type: . Processing as generic file.
+2026-01-17 15:40:01,221 - __main__ - INFO - Successfully processed and posted: EMAIL_REPLY_20260117_153207.md
+2026-01-17 15:40:15,486 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\WHATSAPP_REPLY_20260117_153207.md
+2026-01-17 15:40:15,486 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved\WHATSAPP_REPLY_20260117_153207.md
+2026-01-17 15:40:15,486 - __main__ - INFO - Reading file: WHATSAPP_REPLY_20260117_153207.md
+2026-01-17 15:40:15,496 - __main__ - INFO - Created log entry for: WHATSAPP_REPLY_20260117_153207.md
+2026-01-17 15:40:15,510 - __main__ - INFO - Moved WHATSAPP_REPLY_20260117_153207.md to Done/
+2026-01-17 15:40:15,513 - __main__ - INFO - Updated dashboard for: WHATSAPP_REPLY_20260117_153207.md
+2026-01-17 15:40:16,487 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved\WHATSAPP_REPLY_20260117_153207.md
+2026-01-17 15:43:44,557 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\linkedin_post_hackathon_zero_2026.md
+2026-01-17 15:43:44,557 - __main__ - INFO - Reading file: linkedin_post_hackathon_zero_2026.md
+2026-01-17 15:43:44,557 - __main__ - ERROR - Error processing linkedin_post_hackathon_zero_2026.md: [Errno 13] Permission denied: 'C:\\Users\\LENOVO X1 YOGA\\Desktop\\hakathone zero\\AI_Employee_Vault\\Approved\\linkedin_post_hackathon_zero_2026.md'
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 93, in process_file
+    try:
+         
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\LENOVO X1 YOGA\\Desktop\\hakathone zero\\AI_Employee_Vault\\Approved\\linkedin_post_hackathon_zero_2026.md'
+2026-01-17 15:43:55,149 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\tweet_thankyou_sir_zia.md
+2026-01-17 15:43:55,152 - __main__ - INFO - Reading file: tweet_thankyou_sir_zia.md
+2026-01-17 15:43:55,154 - __main__ - ERROR - Error processing tweet_thankyou_sir_zia.md: [Errno 13] Permission denied: 'C:\\Users\\LENOVO X1 YOGA\\Desktop\\hakathone zero\\AI_Employee_Vault\\Approved\\tweet_thankyou_sir_zia.md'
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 93, in process_file
+    try:
+         
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\LENOVO X1 YOGA\\Desktop\\hakathone zero\\AI_Employee_Vault\\Approved\\tweet_thankyou_sir_zia.md'
+2026-01-17 15:44:07,274 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\EMAIL_REPLY_20260117_153207.md
+2026-01-17 15:44:07,277 - __main__ - INFO - Reading file: EMAIL_REPLY_20260117_153207.md
+2026-01-17 15:44:07,291 - __main__ - INFO - Created log entry for: EMAIL_REPLY_20260117_153207.md
+2026-01-17 15:44:07,301 - __main__ - INFO - Moved EMAIL_REPLY_20260117_153207.md to Done/
+2026-01-17 15:44:07,305 - __main__ - INFO - Updated dashboard for: EMAIL_REPLY_20260117_153207.md
+2026-01-17 15:44:17,500 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\WHATSAPP_REPLY_20260117_153207.md
+2026-01-17 15:44:17,501 - __main__ - INFO - Reading file: WHATSAPP_REPLY_20260117_153207.md
+2026-01-17 15:44:17,507 - __main__ - INFO - Created log entry for: WHATSAPP_REPLY_20260117_153207.md
+2026-01-17 15:44:17,511 - __main__ - INFO - Moved WHATSAPP_REPLY_20260117_153207.md to Done/
+2026-01-17 15:44:17,516 - __main__ - INFO - Updated dashboard for: WHATSAPP_REPLY_20260117_153207.md
+2026-01-17 15:48:39,190 - __main__ - INFO - ============================================================
+2026-01-17 15:48:39,190 - __main__ - INFO - AUTO PROCESSOR - Starting 24/7 Platform Poster
+2026-01-17 15:48:39,192 - __main__ - INFO - ============================================================
+2026-01-17 15:48:39,194 - __main__ - INFO - Vault path: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault
+2026-01-17 15:48:39,194 - __main__ - INFO - Monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 15:48:39,198 - __main__ - INFO - Checking for existing files in Approved folder...
+2026-01-17 15:48:39,200 - __main__ - INFO - Found 2 existing files to process
+2026-01-17 15:48:39,200 - __main__ - INFO - Processing existing file: linkedin_post_hackathon_zero_2026.md
+2026-01-17 15:48:39,206 - __main__ - INFO - Processing file: linkedin_post_hackathon_zero_2026.md
+2026-01-17 15:48:39,211 - __main__ - INFO - File type detected: 
+2026-01-17 15:48:39,214 - __main__ - WARNING - Unknown platform type: . Processing as generic file.
+2026-01-17 15:48:39,260 - __main__ - INFO - Successfully processed and posted: linkedin_post_hackathon_zero_2026.md
+2026-01-17 15:48:40,265 - __main__ - INFO - Processing existing file: tweet_thankyou_sir_zia.md
+2026-01-17 15:48:40,267 - __main__ - INFO - Processing file: tweet_thankyou_sir_zia.md
+2026-01-17 15:48:40,268 - __main__ - INFO - File type detected: 
+2026-01-17 15:48:40,268 - __main__ - WARNING - Unknown platform type: . Processing as generic file.
+2026-01-17 15:48:40,401 - __main__ - INFO - Successfully processed and posted: tweet_thankyou_sir_zia.md
+2026-01-17 15:48:41,411 - __main__ - INFO - Started monitoring: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 15:48:41,411 - __main__ - INFO - Watching for .md files in Approved folder
+2026-01-17 15:48:41,411 - __main__ - INFO - Supported types: linkedin_post, twitter_post, whatsapp, email, instagram_post, instagram_story
+2026-01-17 15:48:41,411 - __main__ - INFO - Press Ctrl+C to stop
+
+2026-01-17 15:49:05,278 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved\linkedin_post_hackathon_zero_2026.md
+2026-01-17 15:49:05,282 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\linkedin_post_hackathon_zero_2026.md
+2026-01-17 15:49:05,285 - __main__ - INFO - Reading file: linkedin_post_hackathon_zero_2026.md
+2026-01-17 15:49:05,377 - __main__ - INFO - Created log entry for: linkedin_post_hackathon_zero_2026.md
+2026-01-17 15:49:05,382 - __main__ - INFO - Moved linkedin_post_hackathon_zero_2026.md to Done/
+2026-01-17 15:49:05,384 - __main__ - INFO - Updated dashboard for: linkedin_post_hackathon_zero_2026.md
+2026-01-17 15:49:05,386 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\tweet_thankyou_sir_zia.md
+2026-01-17 15:49:05,386 - __main__ - INFO - Reading file: tweet_thankyou_sir_zia.md
+2026-01-17 15:49:05,389 - __main__ - INFO - Created log entry for: tweet_thankyou_sir_zia.md
+2026-01-17 15:49:05,395 - __main__ - INFO - Moved tweet_thankyou_sir_zia.md to Done/
+2026-01-17 15:49:05,397 - __main__ - INFO - Updated dashboard for: tweet_thankyou_sir_zia.md
+2026-01-17 15:49:05,397 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\EMAIL_REPLY_20260117_153207.md
+2026-01-17 15:49:05,399 - __main__ - INFO - Reading file: EMAIL_REPLY_20260117_153207.md
+2026-01-17 15:49:05,407 - __main__ - INFO - Created log entry for: EMAIL_REPLY_20260117_153207.md
+2026-01-17 15:49:05,419 - __main__ - INFO - Moved EMAIL_REPLY_20260117_153207.md to Done/
+2026-01-17 15:49:05,422 - __main__ - INFO - Updated dashboard for: EMAIL_REPLY_20260117_153207.md
+2026-01-17 15:49:05,422 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\WHATSAPP_REPLY_20260117_153207.md
+2026-01-17 15:49:05,422 - __main__ - INFO - Reading file: WHATSAPP_REPLY_20260117_153207.md
+2026-01-17 15:49:05,426 - __main__ - INFO - Created log entry for: WHATSAPP_REPLY_20260117_153207.md
+2026-01-17 15:49:05,432 - __main__ - INFO - Moved WHATSAPP_REPLY_20260117_153207.md to Done/
+2026-01-17 15:49:05,433 - __main__ - INFO - Updated dashboard for: WHATSAPP_REPLY_20260117_153207.md
+2026-01-17 15:49:06,299 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved\linkedin_post_hackathon_zero_2026.md
+2026-01-17 15:49:06,303 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved\tweet_thankyou_sir_zia.md
+2026-01-17 15:49:07,316 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved\tweet_thankyou_sir_zia.md
+2026-01-17 15:49:07,318 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved\EMAIL_REPLY_20260117_153207.md
+2026-01-17 15:49:08,319 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved\EMAIL_REPLY_20260117_153207.md
+2026-01-17 15:49:08,322 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved\WHATSAPP_REPLY_20260117_153207.md
+2026-01-17 15:49:09,325 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved\WHATSAPP_REPLY_20260117_153207.md
+2026-01-17 15:50:48,451 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved\test_simple.md
+2026-01-17 15:50:48,451 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_Vault\Approved\test_simple.md
+2026-01-17 15:50:48,455 - __main__ - INFO - Reading file: test_simple.md
+2026-01-17 15:50:48,510 - __main__ - INFO - Created log entry for: test_simple.md
+2026-01-17 15:50:48,528 - __main__ - INFO - Moved test_simple.md to Done/
+2026-01-17 15:50:48,530 - __main__ - INFO - Updated dashboard for: test_simple.md
+2026-01-17 15:50:49,454 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\Desktop\hakathone zero\AI_Employee_vault\Approved\test_simple.md
+2026-01-17 17:39:47,145 - __main__ - INFO - ============================================================
+2026-01-17 17:39:47,145 - __main__ - INFO - AUTO PROCESSOR - Starting 24/7 Platform Poster
+2026-01-17 17:39:47,145 - __main__ - INFO - ============================================================
+2026-01-17 17:39:47,148 - __main__ - INFO - Vault path: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault
+2026-01-17 17:39:47,150 - __main__ - INFO - Monitoring: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 17:39:47,153 - __main__ - INFO - Checking for existing files in Approved folder...
+2026-01-17 17:39:47,163 - __main__ - INFO - Found 2 existing files to process
+2026-01-17 17:39:47,184 - __main__ - INFO - Processing existing file: LINKEDIN_POST_hackathon_zero_2026.md
+2026-01-17 17:39:47,200 - __main__ - INFO - Processing file: LINKEDIN_POST_hackathon_zero_2026.md
+2026-01-17 17:39:47,207 - __main__ - INFO - File type detected: 
+2026-01-17 17:39:47,209 - __main__ - WARNING - Unknown platform type: . Processing as generic file.
+2026-01-17 17:39:47,223 - __main__ - INFO - Successfully processed and posted: LINKEDIN_POST_hackathon_zero_2026.md
+2026-01-17 17:39:48,304 - __main__ - INFO - Processing existing file: TWEET_thankyou_sir_zia.md
+2026-01-17 17:39:48,308 - __main__ - INFO - Processing file: TWEET_thankyou_sir_zia.md
+2026-01-17 17:39:48,333 - __main__ - INFO - File type detected: tweet
+2026-01-17 17:39:57,072 - __main__ - INFO - Tweet posted successfully: 2012505165778362678
+2026-01-17 17:39:57,074 - __main__ - ERROR - Error processing TWEET_thankyou_sir_zia.md: Object of type datetime is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 458, in process_file
+    self.create_log_entry(file_path, metadata, result, success=True)
+  File "C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 590, in create_log_entry
+    log_path.write_text(json.dumps(log_entry, indent=2))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2026-01-17 17:39:58,255 - __main__ - INFO - Started monitoring: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 17:39:58,255 - __main__ - INFO - Watching for .md files in Approved folder
+2026-01-17 17:39:58,255 - __main__ - INFO - Supported types: linkedin_post, twitter_post, whatsapp, email, instagram_post, instagram_story
+2026-01-17 17:39:58,255 - __main__ - INFO - Press Ctrl+C to stop
+
+2026-01-17 20:31:32,533 - __main__ - INFO - ============================================================
+2026-01-17 20:31:32,533 - __main__ - INFO - AUTO PROCESSOR - Starting 24/7 Platform Poster
+2026-01-17 20:31:32,534 - __main__ - INFO - ============================================================
+2026-01-17 20:31:32,535 - __main__ - INFO - Vault path: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault
+2026-01-17 20:31:32,535 - __main__ - INFO - Monitoring: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 20:31:32,537 - __main__ - INFO - Checking for existing files in Approved folder...
+2026-01-17 20:31:32,539 - __main__ - INFO - No existing files to process
+2026-01-17 20:31:32,541 - __main__ - INFO - Started monitoring: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved
+2026-01-17 20:31:32,541 - __main__ - INFO - Watching for .md files in Approved folder
+2026-01-17 20:31:32,541 - __main__ - INFO - Supported types: linkedin_post, twitter_post, whatsapp, email, instagram_post, instagram_story
+2026-01-17 20:31:32,541 - __main__ - INFO - Press Ctrl+C to stop
+
+2026-01-17 23:57:27,774 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\FB_POST_1768675935.md
+2026-01-17 23:57:28,821 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\FB_POST_1768675935.md
+2026-01-17 23:57:28,827 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\FB_POST_1768676127.md
+2026-01-17 23:57:29,831 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\FB_POST_1768676127.md
+2026-01-17 23:57:29,836 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\FB_POST_1768676247.md
+2026-01-17 23:57:30,842 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\FB_POST_1768676247.md
+2026-01-17 23:57:30,846 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\IG_POST_1768676127.md
+2026-01-17 23:57:31,853 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\IG_POST_1768676127.md
+2026-01-17 23:57:31,855 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\IG_POST_1768676247.md
+2026-01-17 23:57:32,861 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\IG_POST_1768676247.md
+2026-01-17 23:57:32,863 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\TW_POST_1768676127.md
+2026-01-17 23:57:33,868 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\TW_POST_1768676127.md
+2026-01-17 23:57:33,874 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\TW_POST_1768676247.md
+2026-01-17 23:57:34,878 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\TW_POST_1768676247.md
+2026-01-17 23:57:34,882 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\LI_POST_1768676127.md
+2026-01-17 23:57:35,887 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\LI_POST_1768676127.md
+2026-01-17 23:57:35,889 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\LI_POST_1768676247.md
+2026-01-17 23:57:36,892 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\LI_POST_1768676247.md
+2026-01-18 00:18:04,451 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\LINKEDIN_POST_1768677484.md
+2026-01-18 00:18:05,485 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\LINKEDIN_POST_1768677484.md
+2026-01-18 00:18:05,491 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\linkedin_post_ai_trends_2026.md
+2026-01-18 00:18:06,495 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\linkedin_post_ai_trends_2026.md
+2026-01-18 00:18:06,506 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\LINKEDIN_POST_DRAFT_20260117.md
+2026-01-18 00:18:07,512 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\LINKEDIN_POST_DRAFT_20260117.md
+2026-01-18 00:18:07,514 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\linkedin_post_hackathon_zero_2026.md
+2026-01-18 00:18:08,522 - __main__ - INFO - Processing file: linkedin_post_hackathon_zero_2026.md
+2026-01-18 00:18:08,572 - __main__ - INFO - File type detected: 
+2026-01-18 00:18:08,573 - __main__ - WARNING - Unknown platform type: . Processing as generic file.
+2026-01-18 00:18:08,608 - __main__ - INFO - Successfully processed and posted: linkedin_post_hackathon_zero_2026.md
+2026-01-18 00:18:08,612 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\LINKEDIN_POST_post_20260116_073220.md
+2026-01-18 00:18:09,623 - __main__ - INFO - Processing file: LINKEDIN_POST_post_20260116_073220.md
+2026-01-18 00:18:09,648 - __main__ - INFO - File type detected: linkedin_post_approval
+2026-01-18 00:19:07,183 - linkedin_poster - INFO - Loaded saved cookies
+2026-01-18 00:19:07,183 - linkedin_poster - INFO - Browser initialized successfully
+2026-01-18 00:19:37,872 - linkedin_poster - ERROR - Error checking login status: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.linkedin.com/feed/", waiting until "domcontentloaded"
+
+2026-01-18 00:19:37,876 - linkedin_poster - WARNING - Not logged in, attempting login...
+2026-01-18 00:20:08,078 - linkedin_poster - ERROR - Login error: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.linkedin.com/login", waiting until "load"
+
+2026-01-18 00:20:08,222 - linkedin_poster - INFO - Saved cookies
+2026-01-18 00:20:21,016 - __main__ - INFO - LinkedIn post successful: N/A
+2026-01-18 00:20:21,018 - __main__ - ERROR - Error processing LINKEDIN_POST_post_20260116_073220.md: Object of type datetime is not JSON serializable
+Traceback (most recent call last):
+  File "C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 458, in process_file
+    logger.info(f"File type detected: {file_type}")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\auto_processor.py", line 590, in create_log_entry
+    'processor': 'auto_processor',
+                    ^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\LENOVO X1 YOGA\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+2026-01-18 00:20:21,261 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\FB_POST_1768677484.md
+2026-01-18 00:20:22,268 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\FB_POST_1768677484.md
+2026-01-18 00:20:22,272 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\IG_POST_1768677484.md
+2026-01-18 00:20:23,278 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\IG_POST_1768677484.md
+2026-01-18 00:20:23,281 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\TWITTER_POST_1768677484.md
+2026-01-18 00:20:24,286 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\TWITTER_POST_1768677484.md
+2026-01-18 00:20:24,290 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\LINKEDIN_POST_1768677616.md
+2026-01-18 00:20:25,304 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\LINKEDIN_POST_1768677616.md
+2026-01-18 00:20:25,307 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\FB_POST_1768677616.md
+2026-01-18 00:20:26,313 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\FB_POST_1768677616.md
+2026-01-18 00:20:26,317 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\IG_POST_1768677616.md
+2026-01-18 00:20:27,326 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\IG_POST_1768677616.md
+2026-01-18 00:20:27,329 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\TWITTER_POST_1768677616.md
+2026-01-18 00:20:28,333 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\TWITTER_POST_1768677616.md
+2026-01-18 00:44:25,035 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\INSTAGRAM_AI_POST_TEST_20260117_043501.md
+2026-01-18 00:44:26,068 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\INSTAGRAM_AI_POST_TEST_20260117_043501.md
+2026-01-18 00:44:26,077 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\INSTAGRAM_POST_20260117_040821.md
+2026-01-18 00:44:27,081 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\INSTAGRAM_POST_20260117_040821.md
+2026-01-18 00:44:27,086 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\INSTAGRAM_POST_20260117_040907.md
+2026-01-18 00:44:28,098 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\INSTAGRAM_POST_20260117_040907.md
+2026-01-18 00:44:28,102 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\INSTAGRAM_POST_20260117_042923.md
+2026-01-18 00:44:29,113 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\INSTAGRAM_POST_20260117_042923.md
+2026-01-18 00:44:29,115 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\INSTAGRAM_POST_20260117_043501.md
+2026-01-18 00:44:30,120 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\INSTAGRAM_POST_20260117_043501.md
+2026-01-18 00:44:30,125 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\LINKEDIN_POST_DRAFT_20260117_151250.md
+2026-01-18 00:44:31,137 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\LINKEDIN_POST_DRAFT_20260117_151250.md
+2026-01-18 00:44:31,140 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\LINKEDIN_POST_DRAFT_20260117_154854.md
+2026-01-18 00:44:32,154 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\LINKEDIN_POST_DRAFT_20260117_154854.md
+2026-01-18 00:44:32,158 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\test_post_immediate.md
+2026-01-18 00:44:33,165 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\test_post_immediate.md
+2026-01-18 01:10:44,079 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\INSTAGRAM_TEST_POST_1768680002.md
+2026-01-18 01:10:45,123 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\INSTAGRAM_TEST_POST_1768680002.md
+2026-01-18 01:10:45,129 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\INSTAGRAM_TEST_POST_1768680240.md
+2026-01-18 01:10:46,142 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\INSTAGRAM_TEST_POST_1768680240.md
+2026-01-18 01:10:46,145 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\LINKEDIN_TEST_POST_1768680240.md
+2026-01-18 01:10:47,152 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\LINKEDIN_TEST_POST_1768680240.md
+2026-01-18 01:10:47,167 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\test_email.md
+2026-01-18 01:10:48,188 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\test_email.md
+2026-01-18 01:10:48,197 - __main__ - INFO - New file detected: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\WHATSAPP_TEST_REPLY_1768680240.md
+2026-01-18 01:10:49,214 - __main__ - WARNING - File no longer exists: C:\Users\LENOVO X1 YOGA\OneDrive\Desktop\hakathone zero\AI_Employee_vault\Approved\WHATSAPP_TEST_REPLY_1768680240.md

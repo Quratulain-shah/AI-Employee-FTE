@@ -1,0 +1,190 @@
+{
+  "timestamp": "2026-01-17T02:51:39.493434",
+  "summary": {
+    "total": 36,
+    "passed": 36,
+    "failed": 0
+  },
+  "results": [
+    {
+      "test": "ENV file exists",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Twitter credentials configured",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Email credentials configured",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Folder exists: Approved",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Folder exists: Pending_Approval",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Folder exists: Needs_Action",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Folder exists: Done",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Folder exists: Failed",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Folder exists: Logs",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Folder exists: Skills",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "MCP file exists: mcp/whatsapp-mcp/whatsapp_mcp.py",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "MCP file exists: mcp/twitter-mcp/twitter_mcp.py",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "MCP file exists: mcp/email-mcp/email_mcp.py",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Core file exists: auto_processor.py",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Core file exists: linkedin_poster.py",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Core file exists: draft_generator.py",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Skill file exists: Skills/email_drafter_skill.md",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Skill file exists: Skills/whatsapp_reply_skill.md",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Skill file exists: Skills/linkedin_post_skill.md",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Skill file exists: Skills/twitter_tweet_skill.md",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Import auto_processor",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Import draft_generator",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Import linkedin_poster",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Twitter API connection",
+      "status": "PASSED",
+      "message": "Connected as @stelalvna"
+    },
+    {
+      "test": "Create Twitter draft",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Email SMTP connection",
+      "status": "PASSED",
+      "message": "Connected to smtp.gmail.com"
+    },
+    {
+      "test": "Create email draft",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "WhatsApp session directory",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "WhatsApp MCP import",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "LinkedIn session directory",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "LinkedIn poster import",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Draft generator - email",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Draft generator - LinkedIn",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Draft generator - Twitter",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Auto processor - metadata extraction",
+      "status": "PASSED",
+      "message": ""
+    },
+    {
+      "test": "Auto processor - content extraction",
+      "status": "PASSED",
+      "message": ""
+    }
+  ]
+}

@@ -1,0 +1,462 @@
+2026-01-09 05:17:56,731 - INFO - Opening WhatsApp Web...
+2026-01-09 05:19:01,022 - WARNING - Timeout waiting for WhatsApp to load. You might need to scan the QR code.
+2026-01-09 05:20:01,288 - CRITICAL - Critical error in script: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"navigation\"]") to be visible
+
+2026-01-09 05:20:28,140 - INFO - Opening WhatsApp Web...
+2026-01-09 05:21:34,520 - WARNING - Timeout waiting for WhatsApp to load. You might need to scan the QR code.
+2026-01-09 05:22:04,509 - CRITICAL - Critical error in script: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("div[role=\"navigation\"]") to be visible
+
+2026-01-09 05:22:25,165 - INFO - Opening WhatsApp Web...
+2026-01-09 05:23:29,983 - WARNING - Timeout waiting for WhatsApp to load. You might need to scan the QR code.
+2026-01-09 05:24:29,992 - CRITICAL - Critical error in script: Page.wait_for_selector: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"navigation\"]") to be visible
+
+2026-01-09 05:26:21,926 - INFO - Opening WhatsApp Web...
+2026-01-09 05:28:23,366 - WARNING - Timeout waiting for WhatsApp to load. You might need to scan the QR code.
+2026-01-09 05:28:36,535 - CRITICAL - Critical error in script: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("div[role=\"navigation\"]") to be visible
+
+2026-01-09 05:28:49,212 - INFO - Opening WhatsApp Web...
+2026-01-09 05:30:51,070 - WARNING - Timeout waiting for WhatsApp to load. You might need to scan the QR code.
+2026-01-09 05:32:51,100 - CRITICAL - Critical error in script: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"navigation\"]") to be visible
+
+2026-01-09 05:35:15,966 - INFO - Opening WhatsApp Web...
+2026-01-09 05:37:19,083 - WARNING - Timeout waiting for WhatsApp to load. You might need to scan the QR code.
+2026-01-09 05:39:19,099 - CRITICAL - Critical error in script: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator("div[role=\"navigation\"]") to be visible
+
+2026-01-09 08:10:33,375 - INFO - Opening WhatsApp Web...
+2026-01-09 08:10:35,842 - INFO - Waiting for WhatsApp to load (scan QR code if needed)...
+2026-01-09 08:10:46,810 - INFO - WhatsApp Web loaded successfully.
+2026-01-09 08:10:51,863 - INFO - Found 10 chats with unread messages.
+2026-01-09 08:10:51,863 - ERROR - Error processing chat 0: 'ElementHandle' object has no attribute 'xpath'
+2026-01-09 08:10:51,863 - ERROR - Error processing chat 1: 'ElementHandle' object has no attribute 'xpath'
+2026-01-09 08:10:51,863 - ERROR - Error processing chat 2: 'ElementHandle' object has no attribute 'xpath'
+2026-01-09 08:10:51,863 - ERROR - Error processing chat 3: 'ElementHandle' object has no attribute 'xpath'
+2026-01-09 08:10:51,864 - ERROR - Error processing chat 4: 'ElementHandle' object has no attribute 'xpath'
+2026-01-09 08:10:51,864 - INFO - Scan complete.
+2026-01-09 08:11:41,699 - INFO - Opening WhatsApp Web...
+2026-01-09 08:11:43,228 - INFO - Waiting for WhatsApp to load (scan QR code if needed)...
+2026-01-09 08:11:53,761 - INFO - WhatsApp Web loaded successfully.
+2026-01-09 08:11:58,833 - INFO - Found 8 chats with unread messages.
+2026-01-09 08:12:33,632 - ERROR - Error processing chat 2: ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="_ak8o" role="gridcell" aria-colindex="2">…</div> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="_ak8k">…</div> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="_ak8o" role="gridcell" aria-colindex="2">…</div> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 100ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <span class="x140p0ai x1gufx9m x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x193iq5w xeuugli x13faqbe x1vvkbs x1lliihq x1fj9vlw xhslqc4 x1hx0egp x1pg5gke xjb2p0i xo1l8bm xl2ypbo x1ic7a3i">4:04 AM</span> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="_ak8k">…</div> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="_ak8o" role="gridcell" aria-colindex="2">…</div> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <span class="x140p0ai x1gufx9m x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x193iq5w xeuugli x13faqbe x1vvkbs x1lliihq x1fj9vlw xhslqc4 x1hx0egp x1pg5gke xjb2p0i xo1l8bm xl2ypbo x1ic7a3i">4:04 AM</span> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <span class="x140p0ai x1gufx9m x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x193iq5w xeuugli x13faqbe x1vvkbs x1lliihq x1fj9vlw xhslqc4 x1hx0egp x1pg5gke xjb2p0i xo1l8bm xl2ypbo x1ic7a3i">4:04 AM</span> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+
+2026-01-09 08:13:03,653 - ERROR - Error processing chat 3: ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <span dir="auto" title="Friday coordinator " class="x1iyjqo2 x6ikm8r x10wlt62 x1n2onr6 xlyipyv xuxw1ft x1rg5ohu x1jchvi3 xjb2p0i xo1l8bm x17mssa0 x1ic7a3i _ao3e">Friday coordinator </span> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="_ak8k">…</div> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="_ak8o" role="gridcell" aria-colindex="2">…</div> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 100ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <span class="x140p0ai x1gufx9m x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x193iq5w xeuugli x13faqbe x1vvkbs x1lliihq x1fj9vlw xhslqc4 x1hx0egp x1pg5gke xjb2p0i xo1l8bm xl2ypbo x1ic7a3i">4:04 AM</span> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="_ak8k">…</div> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="_ak8o" role="gridcell" aria-colindex="2">…</div> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <span class="x140p0ai x1gufx9m x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x193iq5w xeuugli x13faqbe x1vvkbs x1lliihq x1fj9vlw xhslqc4 x1hx0egp x1pg5gke xjb2p0i xo1l8bm xl2ypbo x1ic7a3i">4:04 AM</span> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <span class="x140p0ai x1gufx9m x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x193iq5w xeuugli x13faqbe x1vvkbs x1lliihq x1fj9vlw xhslqc4 x1hx0egp x1pg5gke xjb2p0i xo1l8bm xl2ypbo x1ic7a3i">4:04 AM</span> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+
+2026-01-09 08:13:33,673 - ERROR - Error processing chat 4: ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <span class="x140p0ai x1gufx9m x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x193iq5w xeuugli x13faqbe x1vvkbs x1lliihq x1fj9vlw x1v5yvga x1hx0egp x1pg5gke xjb2p0i xfjzk2p xl2ypbo x1ic7a3i">12:53 AM</span> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="_ak8k">…</div> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="_ak8o" role="gridcell" aria-colindex="2">…</div> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 100ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <span class="x140p0ai x1gufx9m x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x193iq5w xeuugli x13faqbe x1vvkbs x1lliihq x1fj9vlw xhslqc4 x1hx0egp x1pg5gke xjb2p0i xo1l8bm xl2ypbo x1ic7a3i">4:04 AM</span> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="_ak8k">…</div> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="_ak8o" role="gridcell" aria-colindex="2">…</div> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 500ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <span class="x140p0ai x1gufx9m x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x x193iq5w xeuugli x13faqbe x1vvkbs x1lliihq x1fj9vlw xhslqc4 x1hx0egp x1pg5gke xjb2p0i xo1l8bm xl2ypbo x1ic7a3i">4:04 AM</span> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="_ak8k">…</div> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="_ak8o" role="gridcell" aria-colindex="2">…</div> from <div class="x10l6tqk x13vifvy x1o0tod x78zum5 xh8yej3 x5yr21d x6ikm8r x10wlt62 x47corl">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+
+2026-01-09 08:13:33,673 - INFO - Scan complete.
+2026-01-09 08:15:06,496 - INFO - Opening WhatsApp Web...
+2026-01-09 08:15:07,917 - INFO - Waiting for WhatsApp to load (scan QR code if needed)...
+2026-01-09 08:15:19,381 - INFO - WhatsApp Web loaded successfully.
+2026-01-09 08:15:24,462 - INFO - Found 8 chats with unread messages.
+2026-01-09 08:15:36,710 - INFO - Scan complete.
+2026-01-09 08:32:37,299 - INFO - Opening WhatsApp Web...
+2026-01-09 08:32:39,162 - INFO - Waiting for WhatsApp to load (scan QR code if needed)...
+2026-01-09 08:32:49,985 - INFO - WhatsApp Web loaded successfully.
+2026-01-09 08:32:55,770 - INFO - Found 9 chats with unread messages.
+2026-01-09 08:33:10,009 - INFO - Scan complete.
+2026-01-09 08:36:34,689 - INFO - Opening WhatsApp Web...
+2026-01-09 08:36:36,272 - INFO - Waiting for WhatsApp to load (scan QR code if needed)...
+2026-01-09 08:36:48,222 - INFO - WhatsApp Web loaded successfully.
+2026-01-09 08:36:53,261 - INFO - Found 10 chats with unread messages.
+2026-01-09 08:36:55,423 - INFO - Chat with Unknown: Found 0 messages loaded.
+2026-01-09 08:36:57,800 - INFO - Chat with Unknown: Found 0 messages loaded.
+2026-01-09 08:37:00,233 - INFO - Chat with Unknown: Found 0 messages loaded.
+2026-01-09 08:37:02,957 - INFO - Chat with Unknown: Found 0 messages loaded.
+2026-01-09 08:37:05,382 - INFO - Chat with Unknown: Found 0 messages loaded.
+2026-01-09 08:37:05,382 - INFO - Scan complete.
+2026-01-09 08:38:04,574 - INFO - Opening WhatsApp Web...
+2026-01-09 08:38:05,911 - INFO - Waiting for WhatsApp to load (scan QR code if needed)...
+2026-01-09 08:38:17,222 - INFO - WhatsApp Web loaded successfully.
+2026-01-09 08:38:22,274 - INFO - Found 10 chats with unread messages.
+2026-01-09 08:38:29,443 - WARNING - Could not find main chat pane for Unknown
+2026-01-09 08:38:37,184 - WARNING - Could not find main chat pane for Unknown
+2026-01-09 08:38:39,852 - INFO - Chat with Unknown: Found 22 messages loaded.
+2026-01-09 08:38:43,617 - INFO - Chat with Unknown: Found 1 messages loaded.
+2026-01-09 08:38:47,732 - INFO - Chat with Unknown: Found 33 messages loaded.
+2026-01-09 08:38:51,542 - INFO - Scan complete.
+2026-01-09 08:43:08,631 - INFO - Opening WhatsApp Web...
+2026-01-09 08:43:11,784 - INFO - Waiting for WhatsApp to load (scan QR code if needed)...
+2026-01-09 08:43:25,357 - INFO - WhatsApp Web loaded successfully.
+2026-01-09 08:43:30,840 - INFO - Found 11 chats with unread messages.
+2026-01-09 08:43:38,838 - WARNING - Could not find main chat pane for Unknown
+2026-01-09 08:43:38,853 - ERROR - Error processing chat 1: ElementHandle.click: Element is not attached to the DOM
+Call log:
+  - attempting click action
+    - scrolling into view if needed
+
+2026-01-09 08:43:45,185 - INFO - Chat with Unknown: Found 10 messages loaded.
+2026-01-09 08:43:45,256 - INFO - DEBUG: Scanning msg: +92 332 2241405
+ordermuch_pitchdeck
+welcome to the...
+2026-01-09 08:43:45,285 - INFO - DEBUG: Scanning msg: +92 332 2241405
++92 332 2241405
+https://docs.googl...
+2026-01-09 08:43:45,319 - INFO - DEBUG: Scanning msg: syed muhammad huzaifa
++92 346 3276186
++92 332 2241...
+2026-01-09 08:43:45,349 - INFO - DEBUG: Scanning msg: +92 332 2241405
+yes, kind of 
+5:11 am...
+2026-01-09 08:43:45,370 - INFO - DEBUG: Scanning msg: it’s just an idea in my mind for now - maybe turns...
+2026-01-09 08:43:45,388 - INFO - DEBUG: Scanning msg: syed muhammad huzaifa
++92 346 3276186
++92 332 2241...
+2026-01-09 08:43:45,406 - INFO - DEBUG: Scanning msg: +92 332 2241405
+yes, subhan also created a similar...
+2026-01-09 08:43:45,423 - INFO - DEBUG: Scanning msg: dani dani
++92 316 3030878
+@~hamza swati brother so...
+2026-01-09 08:43:45,442 - INFO - DEBUG: Scanning msg: advanced chat privacy was turned off...
+2026-01-09 08:43:48,792 - INFO - Chat with Unknown: Found 10 messages loaded.
+2026-01-09 08:43:48,809 - INFO - DEBUG: Scanning msg: noor ul ain
+sahi h kyuk phr girls puchti h na is l...
+2026-01-09 08:43:48,911 - INFO - DEBUG: Scanning msg: you
+0:59
+nicee
+8:28 am...
+2026-01-09 08:43:48,933 - INFO - DEBUG: Scanning msg: forwarded
+ordermuch_pitchdeck
+welcome to the video...
+2026-01-09 08:43:49,058 - INFO - DEBUG: Scanning msg: you
+https://docs.google.com/videos/d/1sobe7ywcsh_v...
+2026-01-09 08:43:49,076 - INFO - DEBUG: Scanning msg: again msg bejo aur 3 bar bejo wai wala
+8:30 am...
+2026-01-09 08:43:49,095 - INFO - DEBUG: Scanning msg: video khul nhi rahi laptop me khuely gi
+8:30 am...
+2026-01-09 08:43:49,118 - INFO - DEBUG: Scanning msg: the invoice has been sent and payment is urgent.
+
+...
+2026-01-09 08:43:49,118 - INFO - Keyword 'invoice' found in chat with Unknown
+2026-01-09 08:43:49,138 - INFO - Created action item: 2026-01-09_WhatsApp_invoice.md
+2026-01-09 08:43:52,441 - INFO - Chat with Unknown: Found 11 messages loaded.
+2026-01-09 08:43:52,460 - INFO - DEBUG: Scanning msg: mahnoor
++92 333 2455342
+ge plz
+6:03 pm...
+2026-01-09 08:43:52,478 - INFO - DEBUG: Scanning msg: yusra saleem
++92 346 9609145
+hackathon 2 phase 2 k...
+2026-01-09 08:43:52,532 - INFO - DEBUG: Scanning msg: nimra akram
+yusra saleem
++92 346 9609145
+hackathon...
+2026-01-09 08:43:52,568 - INFO - DEBUG: Scanning msg: faiza faisal..
++92 335 2276668
+assalam walikum sir...
+2026-01-09 08:43:52,583 - INFO - DEBUG: Scanning msg: sir alijawad jawwad
+faiza faisal..
++92 335 2276668...
+2026-01-09 08:43:52,599 - INFO - DEBUG: Scanning msg: faiza faisal..
++92 335 2276668
+sir ap ne jo apni r...
+2026-01-09 08:43:52,616 - INFO - DEBUG: Scanning msg: sir alijawad jawwad
+faiza faisal..
++92 335 2276668...
+2026-01-09 08:43:52,633 - INFO - DEBUG: Scanning msg: sir alijawad jawwad
+faiza faisal..
++92 335 2276668...
+2026-01-09 08:43:52,649 - INFO - DEBUG: Scanning msg: faiza faisal..
++92 335 2276668
+thank you sir..
+8:2...
+2026-01-09 08:43:52,656 - INFO - Scan complete.
+2026-01-09 08:53:11,806 - INFO - Starting WhatsApp Monitor...
+2026-01-09 08:53:11,806 - INFO - Vault Path: C:\Users\LENOVO X1 YOGA\Desktop\todo-chat-main\AI_Employee_vault
+2026-01-09 08:53:14,180 - INFO - Opening WhatsApp Web...
+2026-01-09 08:53:31,392 - INFO - WhatsApp Web loaded successfully.
+2026-01-09 08:53:38,617 - INFO - Found 7 chats with unread messages.
+2026-01-09 08:53:38,619 - WARNING - WhatsApp count line not found in Dashboard. No update made.
+2026-01-09 08:53:38,861 - INFO - Opening unread chat...
+2026-01-09 08:53:42,054 - INFO - Scanning chat with: Unknown
+2026-01-09 08:53:47,067 - WARNING - Could not find message pane for Unknown
+2026-01-09 08:53:47,257 - INFO - Opening unread chat...
+2026-01-09 08:53:50,350 - INFO - Scanning chat with: Unknown
+2026-01-09 08:53:55,358 - WARNING - Could not find message pane for Unknown
+2026-01-09 08:53:55,742 - INFO - Opening unread chat...
+2026-01-09 08:53:59,806 - INFO - Scanning chat with: Unknown
+2026-01-09 08:54:04,816 - WARNING - Could not find message pane for Unknown
+2026-01-09 08:54:05,286 - INFO - Opening unread chat...
+2026-01-09 08:54:08,736 - INFO - Scanning chat with: Unknown
+2026-01-09 08:54:13,741 - WARNING - Could not find message pane for Unknown
+2026-01-09 08:54:14,167 - INFO - Opening unread chat...
+2026-01-09 08:54:18,047 - INFO - Scanning chat with: Unknown
+2026-01-09 08:54:23,084 - WARNING - Could not find message pane for Unknown
+2026-01-09 08:54:23,084 - INFO - Scan complete.
+2026-01-09 09:00:52,010 - INFO - Starting WhatsApp Monitor...
+2026-01-09 09:00:52,010 - INFO - Vault Path: C:\Users\LENOVO X1 YOGA\Desktop\todo-chat-main\AI_Employee_vault
+2026-01-09 09:00:53,221 - INFO - Opening WhatsApp Web...
+2026-01-09 09:01:08,065 - INFO - WhatsApp Web loaded successfully.
+2026-01-09 09:01:13,105 - INFO - Found 10 chats with unread messages.
+2026-01-09 09:01:13,108 - INFO - Dashboard updated with WhatsApp unread count: 10
+2026-01-09 09:01:13,142 - INFO - Processing chat 1...
+2026-01-09 09:01:13,170 - INFO - Clicking unread badge...
+2026-01-09 09:01:26,326 - WARNING - Main pane not found after clicking badge.
+2026-01-09 09:01:27,008 - INFO - Saved debug screenshot: C:\Users\LENOVO X1 YOGA\Desktop\todo-chat-main\AI_Employee_vault\Logs\debug_click_fail_0_1767931286.png
+2026-01-09 09:01:27,074 - INFO - Processing chat 2...
+2026-01-09 09:01:27,110 - INFO - Clicking unread badge...
+2026-01-09 09:01:40,173 - WARNING - Main pane not found after clicking badge.
+2026-01-09 09:01:40,382 - INFO - Saved debug screenshot: C:\Users\LENOVO X1 YOGA\Desktop\todo-chat-main\AI_Employee_vault\Logs\debug_click_fail_1_1767931300.png
+2026-01-09 09:01:40,414 - INFO - Processing chat 3...
+2026-01-09 09:01:40,447 - INFO - Clicking unread badge...
+2026-01-09 09:01:53,498 - WARNING - Main pane not found after clicking badge.
+2026-01-09 09:01:53,700 - INFO - Saved debug screenshot: C:\Users\LENOVO X1 YOGA\Desktop\todo-chat-main\AI_Employee_vault\Logs\debug_click_fail_2_1767931313.png
+2026-01-09 09:01:53,725 - INFO - Processing chat 4...
+2026-01-09 09:01:53,753 - INFO - Clicking unread badge...
+2026-01-09 09:02:06,811 - WARNING - Main pane not found after clicking badge.
+2026-01-09 09:02:06,995 - INFO - Saved debug screenshot: C:\Users\LENOVO X1 YOGA\Desktop\todo-chat-main\AI_Employee_vault\Logs\debug_click_fail_3_1767931326.png
+2026-01-09 09:02:07,039 - INFO - Processing chat 5...
+2026-01-09 09:02:07,076 - INFO - Clicking unread badge...
+2026-01-09 09:02:20,133 - WARNING - Main pane not found after clicking badge.
+2026-01-09 09:02:20,389 - INFO - Saved debug screenshot: C:\Users\LENOVO X1 YOGA\Desktop\todo-chat-main\AI_Employee_vault\Logs\debug_click_fail_4_1767931340.png
+2026-01-09 09:02:20,390 - INFO - Scan complete.
+2026-01-09 09:06:46,207 - INFO - Starting WhatsApp Monitor...
+2026-01-09 09:06:46,209 - INFO - Vault Path: C:\Users\LENOVO X1 YOGA\Desktop\todo-chat-main\AI_Employee_vault
+2026-01-09 09:06:47,749 - INFO - Opening WhatsApp Web...
+2026-01-09 09:06:50,652 - INFO - Waiting for WhatsApp to load (scan QR code if needed)...
+2026-01-09 09:07:01,957 - INFO - WhatsApp Web loaded successfully.
+2026-01-09 09:07:06,992 - INFO - Found 10 chats with unread messages.
+2026-01-09 09:07:06,996 - INFO - Dashboard already up to date.
+2026-01-09 09:07:06,996 - INFO - Processing chat 1...
+2026-01-09 09:07:07,030 - INFO - Clicking unread badge...
+2026-01-09 09:07:22,302 - WARNING - Main pane not found after clicking badge.
+2026-01-09 09:07:23,100 - INFO - Saved debug screenshot: C:\Users\LENOVO X1 YOGA\Desktop\todo-chat-main\AI_Employee_vault\Logs\debug_click_fail_0_1767931642.png
+2026-01-09 09:07:23,100 - INFO - Processing chat 2...
+2026-01-09 09:07:23,115 - INFO - Clicking unread badge...
+2026-01-09 09:07:38,167 - WARNING - Main pane not found after clicking badge.
+2026-01-09 09:07:38,356 - INFO - Saved debug screenshot: C:\Users\LENOVO X1 YOGA\Desktop\todo-chat-main\AI_Employee_vault\Logs\debug_click_fail_1_1767931658.png
+2026-01-09 09:07:38,356 - INFO - Processing chat 3...
+2026-01-09 09:07:38,363 - INFO - Clicking unread badge...
+2026-01-09 09:07:53,416 - WARNING - Main pane not found after clicking badge.
+2026-01-09 09:07:53,699 - INFO - Saved debug screenshot: C:\Users\LENOVO X1 YOGA\Desktop\todo-chat-main\AI_Employee_vault\Logs\debug_click_fail_2_1767931673.png
+2026-01-09 09:07:53,699 - INFO - Processing chat 4...
+2026-01-09 09:07:53,712 - INFO - Clicking unread badge...
+2026-01-09 09:08:08,774 - WARNING - Main pane not found after clicking badge.
+2026-01-09 09:08:08,968 - INFO - Saved debug screenshot: C:\Users\LENOVO X1 YOGA\Desktop\todo-chat-main\AI_Employee_vault\Logs\debug_click_fail_3_1767931688.png
+2026-01-09 09:08:08,968 - INFO - Processing chat 5...
+2026-01-09 09:08:08,981 - INFO - Clicking unread badge...
+2026-01-09 09:08:24,041 - WARNING - Main pane not found after clicking badge.
+2026-01-09 09:08:24,231 - INFO - Saved debug screenshot: C:\Users\LENOVO X1 YOGA\Desktop\todo-chat-main\AI_Employee_vault\Logs\debug_click_fail_4_1767931704.png
+2026-01-09 09:08:24,232 - INFO - Scan complete.
+2026-01-09 09:12:12,524 - INFO - Starting WhatsApp Monitor...
+2026-01-09 09:12:12,524 - INFO - Vault Path: C:\Users\LENOVO X1 YOGA\Desktop\todo-chat-main\AI_Employee_vault
+2026-01-09 09:12:13,897 - INFO - Opening WhatsApp Web...
+2026-01-09 09:12:16,197 - INFO - Waiting for WhatsApp to load (scan QR code if needed)...
+2026-01-09 09:12:26,852 - INFO - WhatsApp Web loaded successfully.
+2026-01-09 09:12:31,883 - INFO - Found 67 visible chat rows.
+2026-01-09 09:12:32,569 - INFO - Identified 9 chats with unread messages.
+2026-01-09 09:12:32,574 - INFO - Dashboard updated with WhatsApp unread count: 9
+2026-01-09 09:12:32,575 - INFO - Processing chat 1...
+2026-01-09 09:12:32,575 - INFO - Clicking chat row...
+2026-01-09 09:12:34,162 - INFO - Scanning chat with: 
+2026-01-09 09:12:34,335 - INFO - Extracted 8 message blocks.
+2026-01-09 09:12:34,335 - INFO - Keyword 'urgent' found!
+2026-01-09 09:12:34,337 - INFO - Created action item: 2026-01-09_WhatsApp__urgent.md
+2026-01-09 09:12:34,338 - INFO - Processing chat 2...
+2026-01-09 09:12:34,338 - INFO - Clicking chat row...
+2026-01-09 09:12:36,212 - INFO - Scanning chat with: 
+2026-01-09 09:12:36,481 - INFO - Extracted 6 message blocks.
+2026-01-09 09:12:36,483 - INFO - Processing chat 3...
+2026-01-09 09:12:36,483 - INFO - Clicking chat row...
+2026-01-09 09:12:38,040 - INFO - Scanning chat with: 
+2026-01-09 09:12:38,215 - INFO - Extracted 8 message blocks.
+2026-01-09 09:12:38,217 - INFO - Processing chat 4...
+2026-01-09 09:12:38,217 - INFO - Clicking chat row...
+2026-01-09 09:12:39,565 - INFO - Scanning chat with: 
+2026-01-09 09:12:39,859 - INFO - Extracted 8 message blocks.
+2026-01-09 09:12:39,860 - INFO - Processing chat 5...
+2026-01-09 09:12:39,860 - INFO - Clicking chat row...
+2026-01-09 09:12:41,449 - INFO - Scanning chat with: 
+2026-01-09 09:12:41,710 - INFO - Extracted 7 message blocks.
+2026-01-09 09:12:41,711 - INFO - Scan complete.

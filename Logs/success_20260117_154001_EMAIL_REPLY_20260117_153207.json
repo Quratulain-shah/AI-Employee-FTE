@@ -1,0 +1,13 @@
+{
+  "event_type": "platform_post",
+  "timestamp": "2026-01-17T15:40:01.183802",
+  "processor": "auto_processor",
+  "filename": "EMAIL_REPLY_20260117_153207.md",
+  "metadata": {},
+  "result": {
+    "success": true,
+    "platform": "generic",
+    "note": "Processed without posting"
+  },
+  "success": true
+}

@@ -1,0 +1,15 @@
+{
+  "event_type": "file_processed",
+  "timestamp": "2026-01-17T15:44:17.503396",
+  "processor": "auto_processor",
+  "file_info": {
+    "filename": "WHATSAPP_REPLY_20260117_153207.md",
+    "filepath": "C:\\Users\\LENOVO X1 YOGA\\Desktop\\hakathone zero\\AI_Employee_Vault\\Approved\\WHATSAPP_REPLY_20260117_153207.md",
+    "size_bytes": 539,
+    "created": "2026-01-17T15:32:28.795705",
+    "modified": "2026-01-17T15:32:28.797019",
+    "content_preview": "Hi there,\n\nThanks for reaching out. I've received your urgent message and will address it promptly. Could you please provide more details about what you need assistance with so I can help you effectively?\n\nFor urgent matters, our AI employee system can handle various tasks including scheduling, information retrieval, document processing, and communication management.\n\nIf this is a critical issue requiring immediate human attention, I'll flag it for our team to respond as soon as possible.\n\nBest ...",
+    "metadata": {},
+    "processed_at": "2026-01-17T15:44:17.503396"
+  }
+}

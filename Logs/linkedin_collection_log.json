@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-01-16T07:53:05.579465",
+  "action": "Linkedin data collection triggered",
+  "success": true,
+  "output": "Starting LinkedIn monitoring cycle...\nMonitoring LinkedIn feed for business opportunities...\nFound 3 items to analyze\nIdentified 1 potential sales opportunities\nQualified 1 leads\nGenerated content for generate leads\nCreated approval request: approval_post_20260116_075305\nGenerated weekly report with 20 new connections\n\nLinkedIn Monitoring Results:\n{\n  \"success\": true,\n  \"feed_items_analyzed\": 3,\n  \"opportunities_identified\": 1,\n  \"leads_qualified\": 1,\n  \"content_generated\": \"post_20260116_075305\",\n  \"approval_created\": \"approval_post_20260116_075305\",\n  \"weekly_report\": {\n    \"week_start\": \"2026-01-09\",\n    \"week_end\": \"2026-01-16\",\n    \"posts_published\": 8,\n    \"total_engagement\": {\n      \"likes\": 131,\n      \"comments\": 56,\n      \"shares\": 25,\n      \"views\": 4276\n    },\n    \"new_connections\": 20,\n    \"qualified_leads\": 8,\n    \"engagement_rate\": 2.52,\n    \"top_performing_post\": \"Company milestone announcement\",\n    \"sales_opportunities\": 6,\n    \"recommendations\": [\n      \"Share more client success stories - these generated the most comments\",\n      \"Increase posting frequency during peak hours (9-11 AM)\",\n      \"Post more educational content - engagement rate was 6.2528536042849225%\"\n    ]\n  },\n  \"message\": \"LinkedIn monitoring cycle completed successfully\"\n}\n\nGenerating sample LinkedIn post...\nGenerated post for: generate leads\nApproval request created: approval_post_20260116_075305\n",
+  "error": "",
+  "status": "completed",
+  "command_used": "python linkedin_watcher.py --once"
+}

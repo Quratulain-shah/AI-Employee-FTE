@@ -1,0 +1,15 @@
+{
+  "event_type": "file_processed",
+  "timestamp": "2026-01-17T15:44:07.283800",
+  "processor": "auto_processor",
+  "file_info": {
+    "filename": "EMAIL_REPLY_20260117_153207.md",
+    "filepath": "C:\\Users\\LENOVO X1 YOGA\\Desktop\\hakathone zero\\AI_Employee_Vault\\Approved\\EMAIL_REPLY_20260117_153207.md",
+    "size_bytes": 1089,
+    "created": "2026-01-17T15:31:58.130537",
+    "modified": "2026-01-17T15:31:58.134133",
+    "content_preview": "Subject: Re: Business Opportunity - AI Employee Solutions\n\nDear [Sender Name],\n\nThank you for reaching out regarding the business opportunity. We appreciate you considering our AI employee solutions for your organization.\n\nWe specialize in developing autonomous AI employees that can seamlessly integrate into your business operations. Our solutions include:\n\n\u2022 Email management and automated responses\n\u2022 Social media monitoring and engagement",
+    "metadata": {},
+    "processed_at": "2026-01-17T15:44:07.282027"
+  }
+}

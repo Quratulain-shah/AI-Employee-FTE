@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-01-16T23:06:33.893332",
+  "action": "Twitter data collection triggered",
+  "success": true,
+  "output": "[]\n",
+  "error": "INFO:__main__:Twitter API v1.1 initialized\nINFO:__main__:Running Twitter check\nERROR:__main__:Error checking Twitter DMs: 403 Forbidden\n453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product\nWARNING:__main__:Twitter Client v2 not initialized\nINFO:__main__:Created 0 action files\n",
+  "status": "completed",
+  "command_used": "python watcher.py --once"
+}

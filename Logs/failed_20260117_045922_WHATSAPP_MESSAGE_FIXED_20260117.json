@@ -1,0 +1,20 @@
+{
+  "event_type": "platform_post",
+  "timestamp": "2026-01-17T04:59:22.704812",
+  "processor": "auto_processor",
+  "filename": "WHATSAPP_MESSAGE_FIXED_20260117.md",
+  "metadata": {
+    "type": "whatsapp",
+    "to": "+1234567890",
+    "status": "approved",
+    "created_at": "2026-01-17T05:10:00",
+    "approved_at": "2026-01-17T05:10:00",
+    "priority": "medium"
+  },
+  "result": {
+    "success": false,
+    "platform": "whatsapp",
+    "error": "Locator.wait_for: Page crashed\nCall log:\n  - waiting for locator(\"button[aria-label=\\\"Send\\\"]\") to be visible\n"
+  },
+  "success": false
+}

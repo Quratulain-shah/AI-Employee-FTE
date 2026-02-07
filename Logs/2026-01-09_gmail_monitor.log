@@ -1,0 +1,83 @@
+2026-01-09 06:38:48,877 - INFO - "GET / HTTP/1.1" 200 65
+2026-01-09 06:54:36,934 - INFO - "GET / HTTP/1.1" 200 65
+2026-01-09 07:05:01,261 - ERROR - Please configure EMAIL_PASS in scripts/gmail_monitor.py
+2026-01-09 07:05:30,547 - INFO - Connecting to Gmail IMAP...
+2026-01-09 07:05:32,
+\394 - ERROR - IMAP Monitor Error: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-09 07:06:28,607 - INFO - Connecting to Gmail IMAP...
+2026-01-09 07:06:30,897 - ERROR - IMAP Monitor Error: b'[AUTHENTICATIONFAILED] Invalid credentials (Failure)'
+2026-01-09 07:10:30,172 - INFO - Connecting to Gmail IMAP...
+2026-01-09 07:10:31,865 - INFO - Logged in as aimoshahs@gmail.com
+2026-01-09 07:10:32,564 - INFO - Found 2228 unread emails.
+2026-01-09 07:10:33,636 - INFO - Keyword matched in email from "FundedNext" <updates@fundednext.com>
+2026-01-09 07:10:33,645 - INFO - Created action item: EMAIL_20260109_10% Off Just For You!.md
+2026-01-09 07:10:42,148 - INFO - Keyword matched in email from Lark Digest <larkdigest@mail.beehiiv.com>
+2026-01-09 07:14:16,661 - INFO - Keyword matched in email from Generative AI via LinkedIn <newsletters-noreply@linkedin.com>
+2026-01-09 07:14:44,777 - INFO - Keyword matched in email from Bitget <notification@promo.bitget.com>
+2026-01-09 07:14:44,783 - INFO - Created action item: EMAIL_20260109_Enter the new era of payments with Bitget Pay.md
+2026-01-09 07:15:12,609 - INFO - Keyword matched in email from LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>
+2026-01-09 07:15:12,613 - INFO - Created action item: EMAIL_20260109_�electrical engineer� Classic Enterprises - Urgent.md
+2026-01-09 07:15:19,301 - INFO - Keyword matched in email from Generative AI via LinkedIn <newsletters-noreply@linkedin.com>
+2026-01-09 07:15:19,301 - INFO - Created action item: EMAIL_20260109_Adobe-Backed AI Marketing Startup Went From A $5-$.md
+2026-01-09 07:16:03,020 - INFO - Keyword matched in email from Generative AI via LinkedIn <newsletters-noreply@linkedin.com>
+2026-01-09 07:16:03,024 - INFO - Created action item: EMAIL_20260109_Best AI Tools for Business 2025 Top Solutions for .md
+2026-01-09 07:16:04,885 - INFO - Keyword matched in email from Generative AI via LinkedIn <newsletters-noreply@linkedin.com>
+2026-01-09 07:16:04,887 - INFO - Created action item: EMAIL_20260109_Best AI Tools for Business 2025 Top Solutions for .md
+2026-01-09 07:16:13,455 - INFO - Keyword matched in email from LinkedIn Conversations <updates-noreply@linkedin.com>
+2026-01-09 07:16:13,456 - INFO - Created action item: EMAIL_20260109_Dubai Recruitment just posted something that might.md
+2026-01-09 07:16:15,109 - INFO - Keyword matched in email from Funded Elite <support@fundedelite.com>
+2026-01-09 07:16:15,109 - INFO - Created action item: EMAIL_20260109_Weekend Closure Notice We'll Be Back Monday!.md
+2026-01-09 07:16:37,976 - INFO - Keyword matched in email from LinkedIn Conversations <updates-noreply@linkedin.com>
+2026-01-09 07:16:42,042 - INFO - Keyword matched in email from Generative AI via LinkedIn <newsletters-noreply@linkedin.com>
+2026-01-09 07:17:32,103 - INFO - Connecting to Gmail IMAP...
+2026-01-09 07:17:33,628 - INFO - Logged in as aimoshahs@gmail.com
+2026-01-09 07:17:34,684 - INFO - Found 1543 unread emails. Updating Dashboard...
+2026-01-09 07:17:34,698 - INFO - Dashboard updated with pending count: 1543
+2026-01-09 07:18:18,615 - INFO - Keyword matched in email from LinkedIn <updates-noreply@linkedin.com>
+2026-01-09 07:18:18,615 - ERROR - Failed to create action file for <132216893.17073682.1734967168040@lva1-app63275.prod.linkedin.com>: [Errno 22] Invalid argument: 'C:\\Users\\LENOVO X1 YOGA\\Desktop\\todo-chat-main\\AI_Employee_vault\\Needs_Action\\EMAIL_20260109_Satraj K reacted to a post Vowel Vigilance!\n\nEver.md'
+2026-01-09 07:19:26,659 - INFO - Keyword matched in email from LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>
+2026-01-09 07:19:26,672 - INFO - Created action item: EMAIL_20260109_electrical engineer Classic Enterprises - Urgent H.md
+2026-01-09 07:19:41,551 - INFO - Keyword matched in email from LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>
+2026-01-09 07:19:41,560 - INFO - Created action item: EMAIL_20260109_student ClinicFone - Nursing  Dental  Medical Stud.md
+2026-01-09 07:19:45,450 - INFO - Keyword matched in email from Generative AI via LinkedIn <newsletters-noreply@linkedin.com>
+2026-01-09 07:19:45,462 - INFO - Created action item: EMAIL_20260109_Breaking Trump Backs $500B AI Project with OpenAI.md
+2026-01-09 07:19:45,989 - INFO - Keyword matched in email from FundedNext <updates@fundednext.com>
+2026-01-09 07:19:45,991 - INFO - Created action item: EMAIL_20260109_Boom! Thats it - NO payment hurdles!.md
+2026-01-09 07:19:57,688 - INFO - Keyword matched in email from LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>
+2026-01-09 07:19:57,692 - INFO - Created action item: EMAIL_20260109_2 new jobs for student.md
+2026-01-09 07:20:26,781 - INFO - Keyword matched in email from Onekode via LinkedIn <newsletters-noreply@linkedin.com>
+2026-01-09 07:20:26,792 - INFO - Created action item: EMAIL_20260109_The 5 Metrics That Actually Matter for Your MVP.md
+2026-01-09 07:20:47,802 - INFO - Keyword matched in email from GDG Event Platform <noreply@gdg.community.dev>
+2026-01-09 07:20:47,804 - INFO - Created action item: EMAIL_20260109_Join us in our next event Chai Hour with Saad Hami.md
+2026-01-09 07:21:25,648 - INFO - Keyword matched in email from "The Batch @ DeepLearning.AI" <thebatch@deeplearning.ai>
+2026-01-09 07:21:25,657 - INFO - Created action item: EMAIL_20260109_Monsters of AI AI Psychosis, Lethal Drones, Decayi.md
+2026-01-09 07:21:41,990 - INFO - Keyword matched in email from Job Opening | Cuvette <team@cuvette.tech>
+2026-01-09 07:21:41,995 - INFO - Created action item: EMAIL_20260109_Accenture  Amazon  AmEx Jobs Important Update.md
+2026-01-09 07:22:49,152 - INFO - Keyword matched in email from "Matt Palmer" <matt@mail.replit.com>
+2026-01-09 07:22:49,157 - INFO - Created action item: EMAIL_20260109_October Replit Product Updates.md
+2026-01-09 07:23:09,807 - INFO - Keyword matched in email from "The Batch @ DeepLearning.AI" <thebatch@deeplearning.ai>
+2026-01-09 07:23:09,817 - INFO - Created action item: EMAIL_20260109_OpenAI Reorgs For Profit, MiniMax-M2 Leads Open Co.md
+2026-01-09 07:23:24,835 - INFO - Keyword matched in email from Onekode via LinkedIn <newsletters-noreply@linkedin.com>
+2026-01-09 07:23:24,837 - INFO - Created action item: EMAIL_20260109_AI + Automation The Twin Engines of Business Growt.md
+2026-01-09 07:29:07,967 - INFO - Keyword matched in email from "lablab.ai" <no-reply@lablab.ai>
+2026-01-09 07:29:07,975 - INFO - Created action item: EMAIL_20260109_NEW Hackathon win from $45k Prize Pool & Hack the.md
+2026-01-09 07:29:11,100 - INFO - Keyword matched in email from Microsoft via LinkedIn <newsletters-noreply@linkedin.com>
+2026-01-09 07:29:11,110 - INFO - Created action item: EMAIL_20260109_November 2025.md
+2026-01-09 07:31:10,939 - INFO - Keyword matched in email from "Replit" <contact@mail.replit.com>
+2026-01-09 07:31:10,950 - INFO - Created action item: EMAIL_20260109_Build Faster, Design Better, Get Paid Replit's Lat.md
+2026-01-09 07:31:17,696 - INFO - Keyword matched in email from E8 Markets <support@e8markets.com>
+2026-01-09 07:31:17,710 - INFO - Created action item: EMAIL_20260109_Aimoshah, read this before your next trade.md
+2026-01-09 07:31:45,072 - INFO - Keyword matched in email from "Replit" <contact@mail.replit.com>
+2026-01-09 07:31:45,077 - INFO - Created action item: EMAIL_20260109_Learn how to capture profits from your apps.md
+2026-01-09 07:31:50,917 - INFO - Keyword matched in email from "Replit" <contact@mail.replit.com>
+2026-01-09 07:31:50,925 - INFO - Created action item: EMAIL_20260109_Thursday Stripe x Replit Fireside Chat.md
+2026-01-09 07:32:21,642 - INFO - Keyword matched in email from "Replit" <contact@mail.replit.com>
+2026-01-09 07:32:21,651 - INFO - Created action item: EMAIL_20260109_You asked for it. Stripe Live Build Part 2 is tomo.md
+2026-01-09 07:35:28,633 - INFO - Keyword matched in email from "lablab.ai" <no-reply@lablab.ai>
+2026-01-09 07:35:28,641 - INFO - Created action item: EMAIL_20260109_Agentic Commerce on Arc Kick-Off Stream & LAST CHA.md
+2026-01-09 07:35:48,497 - INFO - Scan complete. Processed 20 keyword matches.
+2026-01-09 07:47:54,427 - INFO - Connecting to Gmail IMAP...
+2026-01-09 07:47:55,802 - INFO - Logged in as aimoshahs@gmail.com
+2026-01-09 07:47:56,647 - INFO - Found 1 unread emails. Updating Dashboard...
+2026-01-09 07:47:56,657 - INFO - Dashboard updated with pending count: 1
+2026-01-09 07:47:57,650 - INFO - Scan complete. Processed 0 keyword matches.

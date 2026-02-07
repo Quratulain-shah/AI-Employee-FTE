@@ -1,0 +1,13 @@
+{
+  "event_type": "platform_post",
+  "timestamp": "2026-01-17T15:48:40.268597",
+  "processor": "auto_processor",
+  "filename": "tweet_thankyou_sir_zia.md",
+  "metadata": {},
+  "result": {
+    "success": true,
+    "platform": "generic",
+    "note": "Processed without posting"
+  },
+  "success": true
+}

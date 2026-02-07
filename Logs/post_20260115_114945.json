@@ -1,0 +1,8 @@
+{
+  "action": "linkedin_post_published",
+  "post_id": "post_20260115_112109",
+  "filename": "LINKEDIN_POST_post_20260115_112109.md",
+  "processed_at": "2026-01-15T11:49:45.686883",
+  "status": "simulated_published",
+  "content_preview": "---\ntype: linkedin_post_approval\npost_id: post_20260115_112109\nscheduled_time: 2026-01-16T09:00:00\nbusiness_goal: establish thought leadership\nrequires_approval: False\napproval_level: auto\n---\n\n# Link"
+}

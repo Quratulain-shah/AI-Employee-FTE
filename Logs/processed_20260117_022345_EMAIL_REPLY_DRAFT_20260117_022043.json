@@ -1,0 +1,17 @@
+{
+  "event_type": "file_processed",
+  "timestamp": "2026-01-17T02:23:45.826317",
+  "processor": "auto_processor",
+  "file_info": {
+    "filename": "EMAIL_REPLY_DRAFT_20260117_022043.md",
+    "filepath": "C:\\Users\\LENOVO X1 YOGA\\Desktop\\hakathone zero\\AI_Employee_Vault\\Approved\\EMAIL_REPLY_DRAFT_20260117_022043.md",
+    "size_bytes": 742,
+    "created": "2026-01-17T02:20:43.482944",
+    "modified": "2026-01-17T02:22:10.853341",
+    "content_preview": "---\ntype: email\nto: test@client.com \nsubject: Re: test_email\noriginal_file: test_email.md\nstatus: pending_approval\ncreated_at: 2026-01-17T02:20:43.842098\nemail_type: general\n---\n",
+    "metadata": {
+      "frontmatter": "\ntype: email\nto: test@client.com \nsubject: Re: test_email\noriginal_file: test_email.md\nstatus: pending_approval\ncreated_at: 2026-01-17T02:20:43.842098\nemail_type: general\n"
+    },
+    "processed_at": "2026-01-17T02:23:45.826317"
+  }
+}

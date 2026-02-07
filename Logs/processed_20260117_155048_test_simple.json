@@ -1,0 +1,15 @@
+{
+  "event_type": "file_processed",
+  "timestamp": "2026-01-17T15:50:48.490336",
+  "processor": "auto_processor",
+  "file_info": {
+    "filename": "test_simple.md",
+    "filepath": "C:\\Users\\LENOVO X1 YOGA\\Desktop\\hakathone zero\\AI_Employee_Vault\\Approved\\test_simple.md",
+    "size_bytes": 42,
+    "created": "2026-01-17T15:50:25.229595",
+    "modified": "2026-01-17T15:50:25.230618",
+    "content_preview": "# Test Post\n\nThis is a simple test post.",
+    "metadata": {},
+    "processed_at": "2026-01-17T15:50:48.490336"
+  }
+}

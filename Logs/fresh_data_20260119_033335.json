@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-01-19T03:33:23.026873",
+  "email": {
+    "status": "success",
+    "count": 10,
+    "saved": 3
+  },
+  "twitter": {
+    "connected": true,
+    "username": "stelalvna",
+    "mentions": [],
+    "timeline": [],
+    "error": null
+  },
+  "linkedin": {
+    "session_exists": true,
+    "cookies_exist": true,
+    "needs_login": false
+  },
+  "instagram": {
+    "session_exists": false,
+    "needs_login": true,
+    "username": "annacrist2233"
+  },
+  "whatsapp": {
+    "session_exists": false,
+    "needs_qr_scan": true
+  }
+}
