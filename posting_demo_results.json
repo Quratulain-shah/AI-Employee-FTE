@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-01-17T23:57:27.573578",
+  "end_timestamp": "2026-01-17T23:57:27.755684",
+  "duration_seconds": 0.182106,
+  "results": {
+    "facebook_post": true,
+    "instagram_post": true,
+    "twitter_post": true,
+    "linkedin_post": true,
+    "approval_workflow": true,
+    "mcp_execution": true
+  },
+  "summary": {
+    "passed": 6,
+    "total": 6,
+    "success_rate": 1.0
+  }
+}

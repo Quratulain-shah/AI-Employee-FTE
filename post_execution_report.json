@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-01-18T00:20:16.578413",
+  "end_timestamp": "2026-01-18T00:20:16.747267",
+  "duration_seconds": 0.168854,
+  "posts_created": 4,
+  "posts_executed": 6,
+  "platforms_used": [
+    "LinkedIn",
+    "Facebook",
+    "Instagram",
+    "Twitter"
+  ],
+  "status": "completed"
+}
