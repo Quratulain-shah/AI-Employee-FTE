@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-01-18T01:04:00.357029",
+  "test_posts_created": 3,
+  "posts": [
+    {
+      "type": "instagram",
+      "file": "INSTAGRAM_TEST_POST_1768680240.md",
+      "status": "created"
+    },
+    {
+      "type": "linkedin",
+      "file": "LINKEDIN_TEST_POST_1768680240.md",
+      "status": "created"
+    },
+    {
+      "type": "whatsapp",
+      "file": "WHATSAPP_TEST_REPLY_1768680240.md",
+      "status": "created"
+    }
+  ],
+  "instructions": "These posts are now in Needs_Action folder and will be processed through the approval workflow and MCP servers when they are running with proper credentials."
+}
